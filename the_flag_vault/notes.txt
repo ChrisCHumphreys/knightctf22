@@ -1,0 +1,6 @@
+Opened in gdb
+break at the strcmp line
+  b * main+242
+
+rdi register contained the password which was abracadabrahahaha
+  KCTF{welc0me_t0_reverse_3ngineering}
