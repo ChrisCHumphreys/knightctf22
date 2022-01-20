@@ -1,0 +1,5 @@
+*.gpr
+*.lock
+*.rep/
+knightctf.rep
+*.lock~
