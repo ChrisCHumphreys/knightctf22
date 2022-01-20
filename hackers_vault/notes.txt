@@ -1,0 +1,14 @@
+# Connection info
+    159.223.166.39:6666
+
+# address of the if that prints out the flag
+0040123e
+
+# address of beginning of "good job"
+00401240
+
+# distance from input start to rip
+0x18
+
+This really felt like more of a reverse engineering exercise
+than an exploit
