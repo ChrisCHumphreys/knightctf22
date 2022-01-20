@@ -1,0 +1,13 @@
+downloaded a decompiler call procyon
+  sudo apt install procyon-decompiler
+
+volumized the .jar file
+  jar xvf babyshark.jar
+
+found flag in /baby_shark/constants/Strings.class
+there was one line that read
+  public static final String _0xflag = "S0NURns3SDE1X1dANV8zNDVZX1IxNkg3P30=";
+ran through base64
+  echo "S0NURns3SDE1X1dANV8zNDVZX1IxNkg3P30=" | base64 -d
+outputs the flag
+  KCTF{7H15_W@5_345Y_R16H7?}
