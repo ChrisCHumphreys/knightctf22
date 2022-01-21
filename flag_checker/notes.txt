@@ -1,0 +1,15 @@
+PsuedoCode of main
+
+for (i = 0; flag_input[i] != null; i++)
+    if flag_input[i] is not between 'A' and 'Z'
+        if flag_input[i] is not between 'a' and 'z'
+            no change to flag_input[i]
+        else
+            # flag is a lowercase letter
+            flag_input[i] = -0x25 - flag_input[i]
+    else
+        # flag is uppercase letter
+        flag_input[i] = -0x65 - flag_input[i]
+
+for (j = 0; flag_input[j] != null; j++)
+    flag_input[j] += -0x20
